@@ -48,7 +48,7 @@ function secondLargest(inputArr) {
     else {
         // sort the array
         var arr = inputArr;
-        for (var i = 0; i < 2; i++) {
+        for (var i = 0; i < 2; i++) { // only have to go through the array twice
             for (var j = i+1; j < arr.length; j++) {
                 if (arr[j] > arr[i]) {
                     [arr[i], arr[j]] = [arr[j], arr[i]];
