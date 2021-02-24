@@ -101,7 +101,6 @@ class Solution {
     // Increment the Seconds
     // Given arr, add 1 to odd elements ([1], [3], etc.), console.log all values and return arr.
     incrementSeconds(arr) {
-        console.log(JSON.stringify(arr));
         for (var i = 1; i < arr.length; i += 2) {
             arr[i] = arr[i] + 1;
         }
