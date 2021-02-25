@@ -20,6 +20,8 @@ class Solution:
 
 sol = Solution
 meetingTimes = [(0, 1),(3, 5),(4, 8),(10, 12),(9, 10)]
+moreMeetingTimes = [(1, 10), (2, 6), (3, 5), (7, 9)]
 
 print(sol.merge_ranges(meetingTimes))
+print(sol.merge_ranges(moreMeetingTimes))
 
