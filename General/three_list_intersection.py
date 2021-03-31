@@ -10,10 +10,12 @@ class Solution:
     def intersection_3_lists(self, list1, list2, list3):
         list1Set = set(list1)
         list2Set = set(list2)
-        intersection = []
-        for i in list3:
-            if i in list1Set and i in list2Set:
-                intersection.append(i)
+        intersection = { i for i in list3 if i in list1Set and i in list2Set }
+
+        # intersection = []
+        # for i in list3:
+        #     if i in list1Set and i in list2Set:
+        #         intersection.append(i)
 
         return intersection # O(3n) -> O(n)
 

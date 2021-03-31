@@ -13,8 +13,10 @@
 # If you had this thought, read the question again carefully.
 # We're asking if any permutation of the string is a palindrome. 
 import unittest
+import collections
 
 class Solution:
+
     # my initial solution without looking at the answer.
     def palindrome_any_permutation(self, input):
         letter_counts = {}
