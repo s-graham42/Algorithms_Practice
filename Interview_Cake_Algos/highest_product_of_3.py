@@ -4,7 +4,7 @@
 
 import unittest
 def highest_product_of_3(arr):
-    """function to find the highst product of 3 integers from a list"""
+    """function to find the highest product of 3 integers from a list"""
 
     highest = max(arr[0], arr[1])
     lowest = min(arr[0], arr[1])
