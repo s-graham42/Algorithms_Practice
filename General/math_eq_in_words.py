@@ -6,6 +6,4 @@
 
     "three hundred sixty five times thirty six" would return 13140
 
-
-
 """
